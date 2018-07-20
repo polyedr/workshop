@@ -1,0 +1,1237 @@
+[
+{
+  "model": "courses.subject",
+  "pk": 1,
+  "fields": {
+    "title": "Mathematics",
+    "slug": "mathematics"
+  }
+},
+{
+  "model": "courses.subject",
+  "pk": 2,
+  "fields": {
+    "title": "Physics",
+    "slug": "physics"
+  }
+},
+{
+  "model": "courses.subject",
+  "pk": 3,
+  "fields": {
+    "title": "Programming",
+    "slug": "programming"
+  }
+},
+{
+  "model": "courses.subject",
+  "pk": 4,
+  "fields": {
+    "title": "Recreation",
+    "slug": "recreation"
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 5,
+  "fields": {
+    "course": 2,
+    "title": "Module1",
+    "description": "Module1 holidays",
+    "order": 0
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 6,
+  "fields": {
+    "course": 3,
+    "title": "module 1",
+    "description": "Module 1 description",
+    "order": 0
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 7,
+  "fields": {
+    "course": 3,
+    "title": "module2",
+    "description": "module2description",
+    "order": 1
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 8,
+  "fields": {
+    "course": 3,
+    "title": "module3",
+    "description": "module3description",
+    "order": 2
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 9,
+  "fields": {
+    "course": 4,
+    "title": "Module: #1 title",
+    "description": "Module: #1 description",
+    "order": 1
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 10,
+  "fields": {
+    "course": 4,
+    "title": "Module: #2 title",
+    "description": "Module: #2 description",
+    "order": 2
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 11,
+  "fields": {
+    "course": 4,
+    "title": "Module: #3 title",
+    "description": "Module: #3 description",
+    "order": 3
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 12,
+  "fields": {
+    "course": 5,
+    "title": "Title: statistics m1",
+    "description": "Description: statistics m1",
+    "order": 0
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 13,
+  "fields": {
+    "course": 5,
+    "title": "Title: statistics m2",
+    "description": "Description: statistics m2",
+    "order": 1
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 14,
+  "fields": {
+    "course": 5,
+    "title": "Title: statistics m3",
+    "description": "Description: statistics m3",
+    "order": 2
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "courses",
+    "model": "module"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "courses",
+    "model": "subject"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "courses",
+    "model": "course"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "courses",
+    "model": "image"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "courses",
+    "model": "text"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 12,
+  "fields": {
+    "app_label": "courses",
+    "model": "file"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 13,
+  "fields": {
+    "app_label": "courses",
+    "model": "content"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 14,
+  "fields": {
+    "app_label": "courses",
+    "model": "video"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "gle0oasj55kzpj5yzn76cerlyt1wo1s7",
+  "fields": {
+    "session_data": "YWE3ZmQxM2ZmNGJiMWMxODM0ZDg1N2I2MzYwOTFkMjFmNDA4ZWUyYjp7Il9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIiwiX2F1dGhfdXNlcl9pZCI6IjEiLCJfYXV0aF91c2VyX2hhc2giOiI0MDU0MGI5NWY1NTZiNjZjYWFiNWQwYTliNGE2OTQzOGFiYjJjMWVlIn0=",
+    "expire_date": "2018-07-27T04:07:51.018Z"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add module",
+    "content_type": 1,
+    "codename": "add_module"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change module",
+    "content_type": 1,
+    "codename": "change_module"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete module",
+    "content_type": 1,
+    "codename": "delete_module"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can add subject",
+    "content_type": 2,
+    "codename": "add_subject"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can change subject",
+    "content_type": 2,
+    "codename": "change_subject"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can delete subject",
+    "content_type": 2,
+    "codename": "delete_subject"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can add course",
+    "content_type": 3,
+    "codename": "add_course"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can change course",
+    "content_type": 3,
+    "codename": "change_course"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can delete course",
+    "content_type": 3,
+    "codename": "delete_course"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 4,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 4,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 4,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 5,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 5,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 5,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 6,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 6,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 6,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 7,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 7,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 7,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 8,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 8,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 8,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 9,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 9,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 9,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can add image",
+    "content_type": 10,
+    "codename": "add_image"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can change image",
+    "content_type": 10,
+    "codename": "change_image"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can delete image",
+    "content_type": 10,
+    "codename": "delete_image"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can add text",
+    "content_type": 11,
+    "codename": "add_text"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can change text",
+    "content_type": 11,
+    "codename": "change_text"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can delete text",
+    "content_type": 11,
+    "codename": "delete_text"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can add file",
+    "content_type": 12,
+    "codename": "add_file"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can change file",
+    "content_type": 12,
+    "codename": "change_file"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can delete file",
+    "content_type": 12,
+    "codename": "delete_file"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add content",
+    "content_type": 13,
+    "codename": "add_content"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change content",
+    "content_type": 13,
+    "codename": "change_content"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete content",
+    "content_type": 13,
+    "codename": "delete_content"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can add video",
+    "content_type": 14,
+    "codename": "add_video"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can change video",
+    "content_type": 14,
+    "codename": "change_video"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can delete video",
+    "content_type": 14,
+    "codename": "delete_video"
+  }
+},
+{
+  "model": "courses.content",
+  "pk": 1,
+  "fields": {
+    "module": 8,
+    "content_type": 10,
+    "object_id": 1,
+    "order": 0
+  }
+},
+{
+  "model": "courses.content",
+  "pk": 2,
+  "fields": {
+    "module": 8,
+    "content_type": 10,
+    "object_id": 2,
+    "order": 1
+  }
+},
+{
+  "model": "courses.content",
+  "pk": 3,
+  "fields": {
+    "module": 8,
+    "content_type": 10,
+    "object_id": 3,
+    "order": 2
+  }
+},
+{
+  "model": "courses.content",
+  "pk": 5,
+  "fields": {
+    "module": 6,
+    "content_type": 10,
+    "object_id": 5,
+    "order": 0
+  }
+},
+{
+  "model": "auth.group",
+  "pk": 1,
+  "fields": {
+    "name": "Instructors",
+    "permissions": [
+      10,
+      11,
+      12,
+      16,
+      17,
+      18,
+      13,
+      14,
+      15,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      37,
+      38,
+      39,
+      7,
+      8,
+      9,
+      34,
+      35,
+      36,
+      28,
+      29,
+      30,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      31,
+      32,
+      33,
+      40,
+      41,
+      42,
+      25,
+      26,
+      27
+    ]
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$100000$TE1qZz3ZAB5p$1u+BPZ4C7YupUqNeDJqu193g6kBe8CuPz7mLS2c18EA=",
+    "last_login": "2018-07-13T04:07:50.942Z",
+    "is_superuser": true,
+    "username": "ishuk",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2018-07-12T09:29:53.480Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$100000$fMcKOufZnm93$KiuVdWknA3BDyvJ1wXpiEcxaSKu/N0g3z9Vf6bf6UME=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "Trainer_maths",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2018-07-12T10:33:17Z",
+    "groups": [
+      1
+    ],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$100000$ibwlKJGlXvab$W/MbR1sXjOqme00oQWjiSk8/UBC93ifrzANj2UJoSFY=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "student",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2018-07-12T13:19:43.311Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 4,
+  "fields": {
+    "password": "pbkdf2_sha256$100000$RSRSxOVQ0w3D$Be9j68XnCJHKIyX2xhY/xWKf85Mn0COSRsm/zrfTnWs=",
+    "last_login": "2018-07-13T03:14:12.547Z",
+    "is_superuser": false,
+    "username": "student1",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2018-07-13T03:14:12.045Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 5,
+  "fields": {
+    "password": "pbkdf2_sha256$100000$fREiWATjpWwe$amS8gRyFBzAE2HvbIeFktZrShRO2bj9H5zc1DnqFzCY=",
+    "last_login": "2018-07-13T03:36:42.349Z",
+    "is_superuser": false,
+    "username": "student3",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2018-07-13T03:36:41.843Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 6,
+  "fields": {
+    "password": "pbkdf2_sha256$100000$HmUmhdFA5X9A$P1OrZOeaPEHlvVDsGB1+YwqAb5MVmTQPoT/oFVvw5wo=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "Trainer_recreations",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2018-07-13T04:18:04Z",
+    "groups": [
+      1
+    ],
+    "user_permissions": []
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2018-07-12T09:31:22.140Z",
+    "user": 1,
+    "content_type": 2,
+    "object_id": "1",
+    "object_repr": "Mathematics",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2018-07-12T09:31:31.413Z",
+    "user": 1,
+    "content_type": 2,
+    "object_id": "2",
+    "object_repr": "Physics",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2018-07-12T09:31:41.438Z",
+    "user": 1,
+    "content_type": 2,
+    "object_id": "3",
+    "object_repr": "Programming",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2018-07-12T09:34:17.381Z",
+    "user": 1,
+    "content_type": 2,
+    "object_id": "4",
+    "object_repr": "Recreation",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2018-07-12T09:39:23.099Z",
+    "user": 1,
+    "content_type": 2,
+    "object_id": "1",
+    "object_repr": "Mathematics",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2018-07-12T09:39:23.239Z",
+    "user": 1,
+    "content_type": 2,
+    "object_id": "2",
+    "object_repr": "Physics",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2018-07-12T09:39:23.316Z",
+    "user": 1,
+    "content_type": 2,
+    "object_id": "3",
+    "object_repr": "Programming",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2018-07-12T09:39:23.382Z",
+    "user": 1,
+    "content_type": 2,
+    "object_id": "4",
+    "object_repr": "Recreation",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2018-07-12T10:29:33.358Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "1",
+    "object_repr": "Instructors",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2018-07-12T10:30:34.443Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "1",
+    "object_repr": "Instructors",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"permissions\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2018-07-12T10:33:17.317Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Trainer",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2018-07-12T10:33:39.872Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Trainer",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"groups\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2018-07-12T10:33:57.535Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Trainer",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"is_staff\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2018-07-13T04:12:05.780Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "4",
+    "object_repr": "Functional analysis",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"module\", \"object\": \"1. Module: #1 title\"}}, {\"added\": {\"name\": \"module\", \"object\": \"2. Module: #2 title\"}}, {\"added\": {\"name\": \"module\", \"object\": \"3. Module: #3 title\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2018-07-13T04:14:23.176Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "5",
+    "object_repr": "Statistics",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"module\", \"object\": \"0. Title: statistics m1\"}}, {\"added\": {\"name\": \"module\", \"object\": \"1. Title: statistics m2\"}}, {\"added\": {\"name\": \"module\", \"object\": \"2. Title: statistics m3\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2018-07-13T04:15:10.351Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "2",
+    "object_repr": "How to spend a holiday",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"title\", \"overview\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2018-07-13T04:15:12.111Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "2",
+    "object_repr": "How to spend a holiday",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2018-07-13T04:15:25.590Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "2",
+    "object_repr": "How to spend a holiday",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"description\"], \"name\": \"module\", \"object\": \"0. Module1\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2018-07-13T04:16:58.915Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "3",
+    "object_repr": "Linear algebra",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"owner\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2018-07-13T04:17:25.571Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Trainer_math",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"username\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2018-07-13T04:18:04.779Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "Trainer_recreations",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2018-07-13T04:18:26.117Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "Trainer_recreations",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"is_staff\", \"groups\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2018-07-13T04:18:41.899Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Trainer_maths",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"username\"]}}]"
+  }
+},
+{
+  "model": "courses.image",
+  "pk": 1,
+  "fields": {
+    "owner": 1,
+    "title": "newcontent",
+    "created": "2018-07-12T11:10:52.192Z",
+    "updated": "2018-07-12T11:10:52.192Z",
+    "file": "images/b1af1778f10ba8779d49bf1ddcecd398.jpg"
+  }
+},
+{
+  "model": "courses.image",
+  "pk": 2,
+  "fields": {
+    "owner": 1,
+    "title": "newcontent",
+    "created": "2018-07-12T11:12:56.020Z",
+    "updated": "2018-07-12T11:12:56.020Z",
+    "file": "images/e52599643fbf6d8e70702dbf1503fa86.jpg"
+  }
+},
+{
+  "model": "courses.image",
+  "pk": 3,
+  "fields": {
+    "owner": 1,
+    "title": "fyu",
+    "created": "2018-07-12T11:13:56.784Z",
+    "updated": "2018-07-12T11:13:56.784Z",
+    "file": "images/22ace5361252b9e97160e6bfd7a12ac9.jpg"
+  }
+},
+{
+  "model": "courses.image",
+  "pk": 5,
+  "fields": {
+    "owner": 1,
+    "title": "auto",
+    "created": "2018-07-12T12:58:03.182Z",
+    "updated": "2018-07-12T12:58:03.182Z",
+    "file": "images/22ace5361252b9e97160e6bfd7a12ac9_FVqiW15.jpg"
+  }
+},
+{
+  "model": "courses.course",
+  "pk": 2,
+  "fields": {
+    "owner": 1,
+    "subject": 4,
+    "title": "How to spend a holiday",
+    "slug": "course2",
+    "overview": "How to spend a holiday overview",
+    "created": "2018-07-12T10:17:06.976Z",
+    "students": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "courses.course",
+  "pk": 3,
+  "fields": {
+    "owner": 2,
+    "subject": 1,
+    "title": "Linear algebra",
+    "slug": "linear-algebra",
+    "overview": "Linear algebra trainings",
+    "created": "2018-07-12T10:43:56.149Z",
+    "students": [
+      1
+    ]
+  }
+},
+{
+  "model": "courses.course",
+  "pk": 4,
+  "fields": {
+    "owner": 2,
+    "subject": 1,
+    "title": "Functional analysis",
+    "slug": "functional-analysis",
+    "overview": "Functional analysis",
+    "created": "2018-07-13T04:12:05.532Z",
+    "students": []
+  }
+},
+{
+  "model": "courses.course",
+  "pk": 5,
+  "fields": {
+    "owner": 2,
+    "subject": 1,
+    "title": "Statistics",
+    "slug": "statistics",
+    "overview": "The course overview is here.",
+    "created": "2018-07-13T04:14:23.019Z",
+    "students": [
+      4
+    ]
+  }
+}
+]
