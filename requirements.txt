@@ -3,7 +3,7 @@ chardet==3.0.4
 Django==2.0.7
 django-embed-video==1.1.2
 djangorestframework==3.8.2
-httpie==0.9.9
+httpie==1.0.3
 idna==2.7
 psycopg2-binary==2.7.5
 Pygments==2.2.0
